@@ -8,9 +8,14 @@ Route::get('/', function () {
 });
 
 
+
+
 Route::get('/profile', function () {
     return view('profile');
 });
+
+
+
 
 Route::get('/biography',function(){
 return view('biography');
